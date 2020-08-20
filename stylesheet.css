@@ -1,0 +1,29 @@
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #162447;
+}
+
+#box1 {
+    height: 200px;
+    width: 50%;
+    background-color: #1f4068;
+    margin: 5%;
+}
+
+#box2 {
+    height: 200px;
+    width: 50%;
+    background-color: #1b1b2f;
+    margin: 5%;
+}
+
+#box3 {
+    height: 200px;
+    width: 50%;
+    background-color: #e43f5a;
+    margin: 5%;
+}
