@@ -19,6 +19,7 @@ body {
     margin: 0px;
     width: 100%;
     height: 200px;
+    border: 10px solid grey;
     background-color: #9cada4;
     color: white;
     letter-spacing: 4px;
@@ -31,18 +32,19 @@ h1 {
     padding-top: 40px;
 }
 
-hr {
-    padding-top: 50px;
-}
-
 .frame-mid {
     margin-top: 50px;
     width: 100%;
     height: 300px;
+    border: 10px solid #9cada4;
     background-color: grey;
     text-align: center;
     letter-spacing: 3px;
     color: white;
+}
+
+hr {
+    margin-top: 50px;
 }
 
 h2 {
@@ -70,8 +72,8 @@ ul {
     margin-top: 50px;
     width: 100%;
     height: 300px;
+    border: 10px solid grey;
     background-color: #9cada4;
-    border-style: solid 3px grey;
     text-align: center;
     letter-spacing: 3px;
     color: white;
@@ -87,7 +89,45 @@ ul {
     color: grey;
 }
 
+.frame-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    border: 10px solid #9cada4;
+    background-color: grey;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+}
+
 img {
-    margin: 50px auto auto auto;
+    position: absolute;
+    top: 50px;
     border-radius: 50%;
+}
+
+.frame-bottomh {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #9cada4;
+    border-style: solid 3px grey;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.links-home {
+    position: relative;
+    top: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.links-home:hover {
+    text-decoration: none;
+    color: grey;
 }
