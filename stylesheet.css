@@ -192,7 +192,7 @@ img {
     right: 0;
     top: 0;
     background: grey;
-    transition: all 0.9s ease;
+    transition: all 0.7s ease;
 }
 
 .btn:before {
@@ -230,7 +230,7 @@ img {
     left: 0;
     bottom: 0;
     background: grey;
-    transition: all 0.9s ease;
+    transition: all 0.7s ease;
 }
 
 .link-h span:before {
@@ -252,7 +252,13 @@ img {
 }
 
 .copyright {
+    text-align: center;
     color: #9cada4;
+}
+
+.contact {
+    color: #9cada4;
+    text-decoration: none;
 }
 
 
